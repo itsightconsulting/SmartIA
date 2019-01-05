@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Document(collection = "analysis")
 public class Analysis implements Serializable {
@@ -28,6 +29,46 @@ public class Analysis implements Serializable {
 
     private Integer originAnalysis;
 
+    private List<AnalysisItem> listDetails;
+
+    private List<AnalysisHashtag> listHashtags;
+
+    private List<UserTwitter> listUser;
+
+    private List<AnalysisKeyword> listKeys;
+
+
+    public List<AnalysisKeyword> getListKeys() {
+        return listKeys;
+    }
+
+    public void setListKeys(List<AnalysisKeyword> listKeys) {
+        this.listKeys = listKeys;
+    }
+
+    public List<AnalysisItem> getListDetails() {
+        return listDetails;
+    }
+
+    public void setListDetails(List<AnalysisItem> listDetails) {
+        this.listDetails = listDetails;
+    }
+
+    public List<AnalysisHashtag> getListHashtags() {
+        return listHashtags;
+    }
+
+    public void setListHashtags(List<AnalysisHashtag> listHashtags) {
+        this.listHashtags = listHashtags;
+    }
+
+    public List<UserTwitter> getListUser() {
+        return listUser;
+    }
+
+    public void setListUser(List<UserTwitter> listUser) {
+        this.listUser = listUser;
+    }
 
     public String getId() {
         return id;

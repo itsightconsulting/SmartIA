@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
-
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
+import DetailsAnalysis from '../components/DetailsAnalysis'
 
 class ListAnalysis extends Component {
     constructor(){
@@ -8,6 +9,7 @@ class ListAnalysis extends Component {
         this.state = {
             data: []
         };
+
     }
 
     async componentWillMount() {
@@ -29,7 +31,7 @@ class ListAnalysis extends Component {
             }
         }).then((data) => {
             this.setState({
-                isLoaded: true,
+                isLoaded: false,
                 data: data
             })
         })
@@ -39,7 +41,6 @@ class ListAnalysis extends Component {
         const { data } = this.state;
 
         return (
-
             <div className="App">
                 <div  className="table-responsive">
                     <h3>Listado de búsquedas</h3>
@@ -51,6 +52,7 @@ class ListAnalysis extends Component {
                             <th scope="col">Fecha de análisis</th>
                             <th scope="col">Estado de análisis</th>
                             <th scope="col">Origen de análisis</th>
+                            <th scope="col">Ver detalle</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -62,6 +64,15 @@ class ListAnalysis extends Component {
                                     <td>{item.startDateAnalysis}</td>
                                     <td>{item.stateAnalysis == 1 ? "Process" : "Ending" }</td>
                                     <td>{item.originAnalysis == 1 ? "Twitter" : "IBM" }</td>
+                                    <td>
+                                        {/*
+                                        <span className="input-group-btn">
+                                            <Link to={"/DetailsAnalysis"} params={{ id: item.id }}>
+                                                <i className="fas fa-angle-double-right" title="Ver detalle"></i>
+                                            </Link>
+                                        </span>*/}
+
+                                    </td>
                                 </tr>
                             )
                         }

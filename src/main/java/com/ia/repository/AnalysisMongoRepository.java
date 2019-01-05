@@ -2,6 +2,7 @@ package com.ia.repository;
 
 
 import com.ia.document.Analysis;
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RestResource;
@@ -15,7 +16,10 @@ import java.util.List;
 @CrossOrigin(value = {})
 public interface AnalysisMongoRepository extends MongoRepository<Analysis, Serializable> {
 
-    @RestResource(path = "key", rel = "key")
-    List<Analysis> findByNameKey(@Param("key") String key);
+    List<Analysis> findAllByNameKey(String key);
+
+    Analysis findByNameKey(String key);
+
+    Analysis findById(String id);
 
 }

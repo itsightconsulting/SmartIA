@@ -10,7 +10,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(<SearchWord />, document.getElementById('search'));
-ReactDOM.render(<ListAnalysis />, document.getElementById('list'));
+//ReactDOM.render(<ListAnalysis />, document.getElementById('list'));
 ReactDOM.render(<App />, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

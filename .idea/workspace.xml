@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73698fdc-80f8-4b0f-bc4a-1eea6d1ffffc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/main-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-frontend/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="73698fdc-80f8-4b0f-bc4a-1eea6d1ffffc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,113 +10,120 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1772250016">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
+          <entry key="css" value="26" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="5" />
-          <entry key="java" value="14" />
-          <entry key="js" value="24" />
-          <entry key="json" value="8" />
+          <entry key="html" value="8" />
+          <entry key="java" value="37" />
+          <entry key="js" value="50" />
+          <entry key="json" value="11" />
           <entry key="properties" value="2" />
           <entry key="scss" value="2" />
-          <entry key="svg" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="svg" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="5" />
-          <entry key="JAVA" value="14" />
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="24" />
+          <entry key="CSS" value="26" />
+          <entry key="HTML" value="8" />
+          <entry key="JAVA" value="37" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="50" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
-          <entry key="SVG" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="SVG" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9" />
-          <entry key="html" value="322" />
-          <entry key="java" value="188" />
-          <entry key="js" value="2098" />
+          <entry key="css" value="311" />
+          <entry key="html" value="324" />
+          <entry key="java" value="1337" />
+          <entry key="js" value="6737" />
           <entry key="json" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="322" />
-          <entry key="JAVA" value="188" />
+          <entry key="CSS" value="311" />
+          <entry key="HTML" value="324" />
+          <entry key="JAVA" value="1337" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="2098" />
+          <entry key="JavaScript" value="6737" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SmartIA" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/components/CreateAnalysis.js">
+        <entry file="file://$PROJECT_DIR$/main-frontend/src/components/SearchWord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="17">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
+                <element signature="n#!!block;n#onChangePersonName#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#onSubmit#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#componentWillUnmount#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#update#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#pauseTimer#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#clearTimer#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#setData#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#startTimerData#0;n#SearchWord#0" />
+                <element signature="n#!!block;n#pauseTimer#1;n#SearchWord#0" />
+                <element signature="n#!!block;n#clearTimer#1;n#SearchWord#0" />
+                <element signature="n#!!block;n#processFirstChart#0;n#SearchWord#0" />
+                <element signature="e#5707#7812#0" />
+                <element signature="e#9495#11575#0" />
+                <element signature="e#14046#24023#0" />
+                <element signature="e#15439#18156#0" />
+                <element signature="e#18315#21013#0" />
+                <element signature="e#21225#23921#0" />
+                <element signature="e#11845#12423#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/App.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main-frontend/src/css/spinner.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="-1173">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-frontend/src/components/Tweet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -131,88 +132,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/components/ListAnalysis.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/components/SearchWord.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main-frontend/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/Analysis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1342#1343#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#1473#1474#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#2001#2002#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-frontend/src/main.css">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/controllers/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="516">
+              <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-frontend/src/css/preview.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="120" column="33" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -223,6 +174,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="CSS File" />
         <option value="Class" />
         <option value="JavaScript File" />
       </list>
@@ -231,13 +183,37 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>spring-boot-starter-data-rest</find>
-      <find>getData</find>
       <find>search</find>
+      <find>onChangePersonName</find>
+      <find>Router</find>
+      <find>getData</find>
+      <find>{ get; set; }</find>
+      <find>body</find>
+      <find>dee9fb</find>
+      <find>bg-light</find>
+      <find>addAnalysis</find>
+      <find>setIdAnalysis</find>
+      <find>dist/js/bootstrap.min.js</find>
+      <find>setState</find>
+      <find>class</find>
+      <find>isLoading</find>
+      <find>update</find>
+      <find>.bg-light</find>
+      <find>generateChartData</find>
+      <find>startTimer</find>
+      <find>em</find>
+      <find>processFirstChart</find>
+      <find>tweets</find>
+      <find>.divResult&gt;.row&gt;.container .tweet</find>
     </findStrings>
+    <replaceStrings>
+      <replace>String</replace>
+      <replace>;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/main-frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -245,27 +221,37 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ia/configuration/MongoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ia/document/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ia/repository/AnalysisMongoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ia/repository/UserMongoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/smartmain/src/components/Search.js" />
         <option value="$PROJECT_DIR$/src/main/resources/smartmain/package.json" />
         <option value="$PROJECT_DIR$/src/main/resources/smartmain/src/App.js" />
         <option value="$PROJECT_DIR$/src/main/resources/smartmain/public/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ia/controllers/SearchController.java" />
         <option value="$PROJECT_DIR$/main-frontend/package.json" />
         <option value="$PROJECT_DIR$/main-frontend/src/components/BoostrapTable.js" />
         <option value="$PROJECT_DIR$/main-frontend/src/components/AnalysisTable.js" />
         <option value="$PROJECT_DIR$/main-frontend/public/index.css" />
         <option value="$PROJECT_DIR$/main-frontend/src/components/CreateAnalysis.js" />
-        <option value="$PROJECT_DIR$/main-frontend/src/index.css" />
         <option value="$PROJECT_DIR$/main-frontend/src/navbar.scss" />
-        <option value="$PROJECT_DIR$/main-frontend/src/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/Analysis.java" />
+        <option value="$PROJECT_DIR$/main-frontend/src/App.js" />
+        <option value="$PROJECT_DIR$/main-frontend/src/components/DetailsAnalysis.js" />
         <option value="$PROJECT_DIR$/main-frontend/src/components/ListAnalysis.js" />
         <option value="$PROJECT_DIR$/main-frontend/src/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/repository/AnalysisMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisHashtag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/UserTwitter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisKeyword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/Analysis.java" />
+        <option value="$PROJECT_DIR$/main-frontend/src/css/title-animation.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/Data.java" />
         <option value="$PROJECT_DIR$/main-frontend/public/index.html" />
-        <option value="$PROJECT_DIR$/main-frontend/src/App.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/controllers/SearchController.java" />
+        <option value="$PROJECT_DIR$/main-frontend/src/index.css" />
+        <option value="$PROJECT_DIR$/main-frontend/src/main.css" />
+        <option value="$PROJECT_DIR$/main-frontend/src/css/spinner.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisItem.java" />
+        <option value="$PROJECT_DIR$/main-frontend/src/components/Tweet.js" />
+        <option value="$PROJECT_DIR$/main-frontend/src/css/preview.css" />
         <option value="$PROJECT_DIR$/main-frontend/src/components/SearchWord.js" />
       </list>
     </option>
@@ -336,6 +322,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,18 +336,37 @@
               <item name="SmartIA" type="462c0819:PsiDirectoryNode" />
               <item name="main-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SmartIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartIA" type="462c0819:PsiDirectoryNode" />
+              <item name="main-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartIA" type="462c0819:PsiDirectoryNode" />
+              <item name="main-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartIA" type="462c0819:PsiDirectoryNode" />
+              <item name="main-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/smartmain/node_modules" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -400,33 +407,46 @@
       <workItem from="1545952024915" duration="265000" />
       <workItem from="1545952435495" duration="5964000" />
       <workItem from="1546009872328" duration="6703000" />
-      <workItem from="1546016691492" duration="22348000" />
+      <workItem from="1546016691492" duration="24049000" />
+      <workItem from="1546440571989" duration="12866000" />
+      <workItem from="1546526461207" duration="25122000" />
+      <workItem from="1546612678326" duration="33174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35280000" />
+    <option name="totallyTimeSpent" value="108143000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49479166" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" sideWeight="0.5033113" side_tool="true" weight="0.26096824" />
       <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5052083" side_tool="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.83548385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.6854839" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" visible="true" weight="0.5129032" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.5129032" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4969743" weight="0.5129032" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.5129032" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,31 +454,6 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" sideWeight="0.5033113" side_tool="true" weight="0.26096824" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.83548385" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.5129032" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.5129032" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,32 +470,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/smartmain/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ia/SmartApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/configuration/MongoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/smartmain/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/smartmain/src/index.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/smartmain/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/smartmain/package.json" />
@@ -511,56 +480,9 @@
     <entry file="file://$PROJECT_DIR$/main-frontend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/SmartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/repository/AnalysisMongoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/AnalysisTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/AnalysisTable.js" />
     <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/bootstrap-4-react/dist/bootstrap-4-react.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/repository/UserMongoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -568,13 +490,7 @@
     <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/bootstrap/dist/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/public/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="91256" selection-start-line="6" selection-start-column="91256" selection-end-line="6" selection-end-column="91256" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/public/css/index.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -582,12 +498,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/controllers/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/navbar.scss" />
+    <entry file="file://$PROJECT_DIR$/main-frontend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="43" lean-forward="true" selection-start-line="8" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/configuration/MongoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/repository/UserMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/SmartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/CreateAnalysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/react-bootstrap/es/Glyphicon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/react-dom/cjs/react-dom.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15140" selection-start-line="15140" selection-end-line="15140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/node_modules/react-router-dom/es/Link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/DetailsAnalysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/repository/AnalysisMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/UserTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -595,137 +674,195 @@
     <entry file="file://$PROJECT_DIR$/main-frontend/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/navbar.scss">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisKeyword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="286" column="3" lean-forward="true" selection-start-line="286" selection-start-column="3" selection-end-line="286" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/Analysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/CreateAnalysis.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisHashtag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-frontend/src/components/ListAnalysis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="680">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/css/title-animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-frontend/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/controllers/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ia/document/AnalysisItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/components/Tweet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/css/preview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="120" column="33" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-frontend/src/components/SearchWord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#onChangePersonName#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#onSubmit#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#update#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#pauseTimer#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#clearTimer#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#setData#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#startTimerData#0;n#SearchWord#0" />
+            <element signature="n#!!block;n#pauseTimer#1;n#SearchWord#0" />
+            <element signature="n#!!block;n#clearTimer#1;n#SearchWord#0" />
+            <element signature="n#!!block;n#processFirstChart#0;n#SearchWord#0" />
+            <element signature="e#5707#7812#0" />
+            <element signature="e#9495#11575#0" />
+            <element signature="e#14046#24023#0" />
+            <element signature="e#15439#18156#0" />
+            <element signature="e#18315#21013#0" />
+            <element signature="e#21225#23921#0" />
+            <element signature="e#11845#12423#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-frontend/.gitignore">
+    <entry file="file://$PROJECT_DIR$/main-frontend/src/css/spinner.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="-1173">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
