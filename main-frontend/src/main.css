@@ -1,7 +1,8 @@
 
 body {
-    font-size: .875rem;
+    font-size: 14px;
     overflow-y: scroll;
+    color: #212529 !important;
 }
 
 .feather {
@@ -71,6 +72,7 @@ body {
 [role="main"] {
     padding-top: 48px; /* Space for fixed navbar */
     margin-bottom: 5%;
+    font-size: 14px !important;
 }
 
 /*
@@ -106,4 +108,14 @@ input.form-control.form-control-dark.w-100 {}
 
 nav.bg-light{
     background: #222 !important;
+}
+.form-control{
+    font-size: 14px !important;
+}
+div{
+    font-size: 14px !important;
+}
+
+.btn{
+    font-size: 14px !important;
 }

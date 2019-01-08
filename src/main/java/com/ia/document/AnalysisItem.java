@@ -1,5 +1,6 @@
 package com.ia.document;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -38,6 +39,7 @@ public class AnalysisItem  implements Serializable {
 
     private String TweetSource;
 
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy HH:mm")
     private Date TweetFecha;
 
     private String TweetFullText;

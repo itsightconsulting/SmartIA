@@ -6,10 +6,9 @@ import App from './App';
 import ListAnalysis from './components/ListAnalysis';
 import SearchWord from './components/SearchWord';
 import * as serviceWorker from './serviceWorker';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-
-ReactDOM.render(<SearchWord />, document.getElementById('search'));
+//ReactDOM.render(<SearchWord />, document.getElementById('search'));
 //ReactDOM.render(<ListAnalysis />, document.getElementById('list'));
 ReactDOM.render(<App />, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change

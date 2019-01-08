@@ -19,10 +19,10 @@ public class Analysis implements Serializable {
     @NotNull
     private String nameKey;
 
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy HH:mm")
     private Date startDateAnalysis;
 
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy HH:mm")
     private Date endDateAnalysis;
 
     private Integer stateAnalysis;

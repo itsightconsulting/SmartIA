@@ -12,6 +12,15 @@ ul{
     list-style:none;
 }
 
+label{
+    color: #212529 !important;
+    font-size: 14px !important;
+}
+div.label{
+    color: #212529 !important;
+    font-size: 14px !important;
+}
+
 .table-condensed {
     font-size: 11px;
 }
@@ -46,13 +55,13 @@ ul{
 }
 
 .divResult{
-    text-align:center;
+    text-align:center !important;
     width:94%;
     background-color: #ffffff;
     display:block;
     margin-left:auto;
     margin-right:auto;
-
+    font-size: 14px !important;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -253,4 +262,20 @@ label.loading {
 
 .width-center{
     width: 100%;
+}
+
+.divtweet{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+a.nav-link.active{
+    background-color: #b5efe133;
+}
+
+#divDashboard{
+    margin-bottom: 20px;
+}
+#divDashboard > label{
+    color: #212529 !important;
 }

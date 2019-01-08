@@ -8,6 +8,7 @@ import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
+import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 
 am4core.useTheme(am4themes_animated);
 
@@ -28,7 +29,6 @@ class SearchWord extends Component {
             data : {},
             end : false,
             tweet: [],
-
         };
         this.timerId = 0;
         this.timerData = 0;
@@ -284,7 +284,7 @@ class SearchWord extends Component {
             console.log(listfilter);
         }
 
-         const tweets = listfilter.length == 0 ? "" : listfilter.map((tw, i) => {
+         /*const tweets = { //listfilter.length == 0 ? "" : listfilter.map((tw, i) => {
             return (
                 <div className="tweet">
                     <div className="details">
@@ -306,9 +306,8 @@ class SearchWord extends Component {
                     <div className="tweet-text">
                         {tw.tweetFullText}
                     </div>
-                </div>
-            )
-        });
+                </div>*/
+        //});
 
 
         return (
@@ -404,7 +403,7 @@ class SearchWord extends Component {
                                     <div id="retweet" className="tab-pane fade in active">
                                         <ul className="feed">
                                             <li className="tweets_top">{
-                                                tweets
+                                                <tableShare data={listfilter} />
                                             }
                                             </li>
                                         </ul>
@@ -584,6 +583,19 @@ class SearchWord extends Component {
     }
 
 
+}
+
+
+class tableShare extends Component {
+    render() {
+        return (
+            <BootstrapTable data={ this.props.data }  height='500' scrollTop={ 'Bottom' } options={ { noDataText: 'This is custom text for empty data' } }>
+                <TableHeaderColumn dataField='id' isKey>Product ID</TableHeaderColumn>
+                <TableHeaderColumn dataField='name'>Product Name</TableHeaderColumn>
+                <TableHeaderColumn dataField='price'>Product Price</TableHeaderColumn>
+            </BootstrapTable>
+        );
+    }
 }
 
 
