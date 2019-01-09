@@ -39,7 +39,7 @@ public class AnalysisItem  implements Serializable {
 
     private String TweetSource;
 
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy HH:mm")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-dd HH:mm:ss")
     private Date TweetFecha;
 
     private String TweetFullText;

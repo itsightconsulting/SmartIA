@@ -35,7 +35,7 @@ class SearchWord extends Component {
 
         this.getdatatmp();
         this.startTimer();
-        //this.startTimerData();
+        this.processFirstChart();
     }
 
 
@@ -142,7 +142,6 @@ class SearchWord extends Component {
     startTimer() {
         this.timerId = setInterval(() => {
             //this.update();
-            this.processFirstChart();
         },3000);
     }
 
@@ -192,8 +191,6 @@ class SearchWord extends Component {
             listDetails = listDetails.filter(function(element) {
                                 return  element.tweetSearchFiltersId == 1
                             });
-
-
 
             let chartData = [];
 
@@ -560,11 +557,11 @@ class SearchWord extends Component {
                 </div>
                 <br />
                 <div>
-                    <div className="container">
-                        <div className="row">
-                            <div id="chartdiv1"></div>
+                        <div className="container">
+                            <div className="row">
+                                <div id="chartdiv1"></div>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <br />
                 <div id="divloading" className={"view " + this.state.class}>
