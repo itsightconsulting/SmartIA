@@ -49,7 +49,7 @@ public class SearchController {
 
         if (analysis != null) {
             if(analysis.getStateAnalysis() == 1){ // Registrado
-                ent.setState("Procesando análisis registrado...");
+                ent.setState("Buscando análisis ...");
                 ent.setFlagListo(false);
                 ent.setEntity(null);
             }else if(analysis.getStateAnalysis() == 2){ // DatosRecolectados

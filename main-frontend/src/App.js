@@ -22,7 +22,7 @@ class App extends Component {
             search_name: '',
             isLoading: false,
             open : true,
-            text :'',
+            text :'Procesando búsqueda',
             class : 'hide',
             ids :'',
             on : false,
@@ -134,7 +134,7 @@ class App extends Component {
             return data.id;
         })
 
-        //this.setState({ ids: "5c366466bacae5346022c5bb", register : true });
+        //this.setState({ ids: "5c366f2dbacae53760b4eae9", register : true });
 
     }
 
@@ -253,7 +253,7 @@ class ResultTops extends Component{
             ///----------------------------------------------------------
 
             listFavorite = listDetails.filter(function (element) {
-                return element.tweetOrigen == 1 && element.tweetTotalFavoritos > 0
+                return element.tweetTotalFavoritos > 0
             });
 
             listFavorite.sort(function (a, b) {
@@ -430,8 +430,8 @@ class ResultHashtag extends Component {
 
     render(){
 
-        const listHashtag = this.props.end ? this.props.data.listHashtags : [];
-        const listkeyWord = this.props.end ? this.props.data.listKeys : [];
+        let listHashtag = this.props.end ? this.props.data.listHashtags : [];
+        let listkeyWord = this.props.end ? this.props.data.listKeys : [];
 
         let listResult = [];
         let listResultKey = [];
@@ -484,6 +484,9 @@ class ResultHashtag extends Component {
                     });
                 }
             }
+
+            listResultKey = listResultKey.slice(0, 150);
+
         }
 
         return (
