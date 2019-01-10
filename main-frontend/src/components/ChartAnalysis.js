@@ -200,7 +200,7 @@ class ChartAnalysis extends Component{
 
     render(){
         return(
-            <div id="chartdiv"></div>
+            <div id="chartdiv" className="grahp-chart"></div>
         )
     }
 }

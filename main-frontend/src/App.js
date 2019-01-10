@@ -5,6 +5,8 @@ import './css/preview.css';
 import './css/spinner.css';
 import {Button, Tabs, Tab} from "react-bootstrap";
 import ChartAnalysis from './components/ChartAnalysis';
+import ChartAnalysisSentiment from './components/ChartAnalysisSentiment';
+import ChartAnalysisSource from './components/ChartAnalysisSource';
 
 import { TagCloud } from "react-tagcloud";
 import { randomColor } from 'randomcolor';
@@ -35,8 +37,6 @@ class App extends Component {
         this.timerId = 0;
         this.timerData = 0;
 
-        this.startTimer();
-        this.startData();
     }
 
 
@@ -105,11 +105,28 @@ class App extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        this.setState({isLoading: true});
+
+        this.setState({
+            isLoading: true,
+            open : true,
+            text :'Procesando búsqueda',
+            class : 'hide',
+            ids :'',
+            on : false,
+            data : {},
+            end : false,
+            register : false,
+            tweet: [],
+        });
+
+        this.startTimer();
+        this.startData();
+
         this.searching(this.state.search_name);
     }
 
     searching(valor){
+
         let Analysis = {
             nameKey: valor
         }
@@ -134,7 +151,7 @@ class App extends Component {
             return data.id;
         })
 
-        //this.setState({ ids: "5c366f2dbacae53760b4eae9", register : true });
+       //this.setState({ ids: "5c37bc000d2f1134c0152b80", register : true });
 
     }
 
@@ -170,6 +187,10 @@ class App extends Component {
                 <ResultUser data={this.state.data} end={this.state.end}/>
                 <br/>
                 <TimeLine data={this.state.data} end={this.state.end}/>
+                <br/>
+                <ChartSentiment  data={this.state.data} end={this.state.end} />
+                <br/>
+                <ChartSource data={this.state.data} end={this.state.end} />
             </div>
         }
 
@@ -385,6 +406,10 @@ class LiShare extends Component{
     }
 
     render(){
+
+        let datafound = this.props.data;
+        let textfound = datafound.length == 0 ? "No se encontraron resultados" : "";
+
         const shared =  this.props.data.map((tw, index) => {
 
             let urluser = JSON.parse(tw.objDetalleAPI);
@@ -416,7 +441,7 @@ class LiShare extends Component{
 
         return (
             <li className="tweets_top">
-                { shared }
+                { shared } { textfound }
             </li>
         );
 
@@ -486,8 +511,10 @@ class ResultHashtag extends Component {
             }
 
             listResultKey = listResultKey.slice(0, 150);
-
         }
+
+        let datafound1 = this.props.data.listHashtags;
+        let datafound2 = this.props.data.listKeys;
 
         return (
             <div className={"container divResult "}>
@@ -499,12 +526,12 @@ class ResultHashtag extends Component {
                         <Tabs defaultActiveKey={1} animation={false} id="noanim-tab-example">
                             <Tab sm="4" eventKey={1} title="Hashtags identificados" className="tab-content">
                                 <div className="divtweet">
-                                     <DivCloud data={listResult} />
+                                    {datafound1.length == 0 ? "No se encontraron resultados" : <DivCloud data={listResult} /> }
                                 </div>
                             </Tab>
                             <Tab sm="4" eventKey={2} title="Keywords identificados" className="tab-content">
                                 <div className="divtweet">
-                                    <DivCloud data={listResultKey} />
+                                    {datafound2.length == 0 ? "No se encontraron resultados" : <DivCloud data={listResultKey} /> }
                                 </div>
                             </Tab>
                         </Tabs>
@@ -535,10 +562,15 @@ class DivCloud extends Component {
                       color: () => randomColor(),
                   }}>{tag.value}</span>
         );
+
+        let dataFound = this.props.data;
+
         return (
-                 <TagCloud tags={this.props.data} minSize={1} maxSize={2}
-                           style={{textAlign: 'center', paddingRight:240, paddingLeft:240, paddingTop:40}}
-                           renderer={customRenderer} />
+            <div>
+            {dataFound.length == 0 ? "No se encontraron resultados" : <TagCloud tags={this.props.data} minSize={1} maxSize={2}
+                                                                                         style={{textAlign: 'center', paddingRight:240, paddingLeft:240, paddingTop:40}}
+                                                                                         renderer={customRenderer} /> }
+            </div>
         )
     }
 }
@@ -661,6 +693,7 @@ class ResultUser extends Component {
 
         listRecent = listRecent.slice(0, 50);
 
+
        return(
             <div className={"container divResult "}>
                 <div className="row">
@@ -692,46 +725,22 @@ class TableUser extends Component {
         super(props);
     }
 
-    renderShowsTotal(start, to, total) {
-        return (
-            <p style={ { color: 'blue' } }>
-                From { start } to { to }, totals is { total }&nbsp;&nbsp;(its a customize text)
-            </p>
-        );
-    }
+
     render(){
 
-        let  totalrows = this.props.data;
+        let totalRows = this.props.data;
+        let totalRowsData = totalRows.length;
 
         const options = {
-            page: 2,  // which page you want to show as default
-            sizePerPageList: [ {
-                text: '5', value: 5
-            }, {
-                text: '10', value: 10
-            }, {
-                text: 'All', value:  totalrows.length
-            } ], // you can change the dropdown list for size per page
-            sizePerPage: 5,  // which size per page you want to locate as default
-            pageStartIndex: 0, // where to start counting the pages
-            paginationSize: 3,  // the pagination bar size.
-            prePage: 'Prev', // Previous page button text
-            nextPage: 'Next', // Next page button text
-            firstPage: 'First', // First page button text
-            lastPage: 'Last', // Last page button text
-            paginationShowsTotal: this.renderShowsTotal,  // Accept bool or function
-            paginationPosition: 'top'  // default is bottom, top and both is all available
-            // hideSizePerPage: true > You can hide the dropdown for sizePerPage
-            // alwaysShowAllBtns: true // Always show next and previous button
-            // withFirstAndLast: false > Hide the going to First and Last page button
+            noDataText : 'No se encontraron resultados'
         };
 
         return (
             <BootstrapTable data={ this.props.data }  pagination={ true } options={ options }  height='500'
-                            scrollTop={ 'Bottom' } options={ { noDataText: 'This is custom text for empty data' } }
+                            scrollTop={ 'Bottom' }
                             headerClasses="header-class"
             >
-                <TableHeaderColumn width='20%' dataAlign='left' headerAlign='center' dataField='tweetUsuarioId' dataFormat={ avatarFormatter } isKey>ID</TableHeaderColumn>
+                <TableHeaderColumn width='20%' dataAlign='left' headerAlign='center' dataField='id' dataFormat={ avatarFormatter } isKey>ID</TableHeaderColumn>
                 <TableHeaderColumn width='20%' dataAlign='left' headerAlign='center' dataField='nombre'>Name</TableHeaderColumn>
                 <TableHeaderColumn width='40%' dataAlign='left' headerAlign='center' dataField='descripcion' dataFormat={ descriptionFormatter }>Desciption</TableHeaderColumn>
                 <TableHeaderColumn width='10%' dataAlign='right' headerAlign='center' dataField='total'>All Tweets</TableHeaderColumn>
@@ -756,6 +765,8 @@ class TimeLine extends Component {
     }
 
     render(){
+        let dataFound = this.props.data.listDetails;
+
          return (
             <div className="divResult container">
                 <header className="width-center">
@@ -763,15 +774,56 @@ class TimeLine extends Component {
                 </header>
                 <div className="row">
                     <div className="container">
-                        <ChartAnalysis data={this.props.data} end={this.props.end} />
+                        {dataFound.length == 0 ? "No se encontraron resultados" : <ChartAnalysis data={this.props.data} end={this.props.end} />}
                     </div>
                 </div>
             </div>
         )
     }
+}
 
+class ChartSentiment extends Component{
+    constructor(props) {
+        super(props);
+    }
 
+    render(){
+        let dataFound = this.props.data.listDetails;
+        return (
+            <div className="divResult container">
+                <header className="width-center">
+                    <h3>Sentiment - Tweets</h3>
+                </header>
+                <div className="row">
+                    <div className="container">
+                        {dataFound.length == 0 ? "No se encontraron resultados" : <ChartAnalysisSentiment data={this.props.data} end={this.props.end} />}
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
 
+class ChartSource extends Component{
+    constructor(props) {
+        super(props);
+    }
+
+    render(){
+        let dataFound = this.props.data.listDetails;
+        return(
+            <div className="divResult container">
+                <header className="width-center">
+                    <h3>Source - Tweets</h3>
+                </header>
+                <div className="row">
+                    <div className="container">
+                        {dataFound.length == 0 ? "No se encontraron resultados" : <ChartAnalysisSource data={this.props.data} end={this.props.end} />}
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }
 
 class Loading extends Component{

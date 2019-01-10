@@ -272,7 +272,7 @@ label.loading {
     overflow:hidden;
 }
 
-#chartdiv1 {
+.grahp-chart {
     width: 100%;
     height: 500px;
 }
